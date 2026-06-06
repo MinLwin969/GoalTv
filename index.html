@@ -13,7 +13,7 @@
       <div class="app-details">
         <h1>Goal!Tv</h1>
         <p>MgZinMinLwin</p>
-        <p class="version">Version: 1.4</p>
+        <p class="version">Version: 1.5</p>
       </div>
     </div>
 
@@ -55,9 +55,15 @@
 </body>
 <script>
     function startDownload() {
-      // Replace 'YOUR_APK_URL' with the actual URL of your APK file
-      var apkUrl = 'GoalTv_1.4.apk';
-      window.open(apkUrl, '_system');
-    }
+  var apkUrl = 'GoalTv_1.5.apk';
+  
+  // Method 1: HTML Anchor element တစ်ခုဆောက်ပြီး dynamic download ဆွဲခိုင်းတာ (Webview အတွက် ပိုအဆင်ပြေတယ်)
+  var link = document.createElement('a');
+  link.href = apkUrl;
+  link.download = apkUrl.split('/').pop();
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
   </script>
 </html>
