@@ -1,74 +1,13 @@
 {
     "livematch": [
         {
-            "enmatchName": "Abu Dhabi T10 VS Abu Dhabi T10",
-            "LeagueName": "Abu Dhabi T10 League",
-            "Leaguelogo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-            "homeLogo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-            "awayLogo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-            "matchTime": 1794836742,
-            "matchDate": "2026/11/16 13:45:42 +0000",
-            "enhomeName": "Abu Dhabi T10",
-            "enawayName": "Abu Dhabi T10",
-            "links": [
-                {
-                    "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a80vkhambt/out/v1/6e7ce96f23d14ebba16e2f54aac8323d/cenc.mpd?|drmScheme=clearkey&drmLicense=8f6af65e6fd5fe9b2fa7510de69e492a:61921d1e73c2f0870d3f3e7d09f8bbb6",
-                    "lang": "en",
-                    "referer": ""
-                },
-                {
-                    "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19",
-                    "lang": "en",
-                    "referer": ""
-                },
-                {
-                    "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/a80vkhambt/out/v1/6e7ce96f23d14ebba16e2f54aac8323d/cenc.mpd?|drmScheme=clearkey&drmLicense=8f6af65e6fd5fe9b2fa7510de69e492a:61921d1e73c2f0870d3f3e7d09f8bbb6",
-                    "lang": "en",
-                    "referer": ""
-                }
-            ]
-        },
-        {
-            "enmatchName": "South Africa VS Bangladesh",
-            "LeagueName": "ICC World Test Championship",
-            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-            "homeLogo": "https://img.sofascore.com/api/v1/team/187747/image",
-            "awayLogo": "https://img.sofascore.com/api/v1/team/187744/image",
-            "matchTime": 1794816054,
-            "matchDate": "2026/11/16 08:00:54 +0000",
-            "enhomeName": "South Africa",
-            "enawayName": "Bangladesh",
-            "links": [
-                {
-                    "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wuqectjbqg/out/v1/55f113daf3c1409eb2623e1f921d421c/cenc.mpd?|drmScheme=clearkey&drmLicense=6597902f04582f5e30cf281d4d86cecb:85d06b34717eae4d10f7a52abdeafe97",
-                    "lang": "en",
-                    "referer": ""
-                },
-                {
-                    "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36?|drmScheme=clearkey&drmLicense=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-                    "lang": "en",
-                    "referer": ""
-                },
-                {
-                    "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wuqectjbqg/out/v1/55f113daf3c1409eb2623e1f921d421c/cenc.mpd?|drmScheme=clearkey&drmLicense=6597902f04582f5e30cf281d4d86cecb:85d06b34717eae4d10f7a52abdeafe97",
-                    "lang": "en",
-                    "referer": ""
-                },
-                {
-                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e",
-                    "lang": "en",
-                    "referer": ""
-                }
-            ]
-        },
-        {
             "enmatchName": "Namibia VS Cameroon",
             "LeagueName": "Africa Cup of Nations Qual.",
             "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
             "homeLogo": "https://img.sofascore.com/api/v1/team/4832/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4751/image",
             "matchTime": 1794834000,
-            "matchDate": "2026/11/16 13:00:00 +0000",
+            "matchDate": "Today 07:30 PM",
             "enhomeName": "Namibia",
             "enawayName": "Cameroon",
             "links": [
@@ -91,12 +30,12 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4734/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4739/image",
             "matchTime": 1794834000,
-            "matchDate": "2026/11/16 13:00:00 +0000",
+            "matchDate": "Today 07:30 PM",
             "enhomeName": "Sudan",
             "enawayName": "Senegal",
             "links": [
                 {
-                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+                    "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
                     "lang": "en",
                     "referer": ""
                 },
@@ -114,7 +53,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4719/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/8032/image",
             "matchTime": 1794834000,
-            "matchDate": "2026/11/16 13:00:00 +0000",
+            "matchDate": "Today 07:30 PM",
             "enhomeName": "Zimbabwe",
             "enawayName": "Equatorial Guinea",
             "links": [
@@ -124,6 +63,198 @@
                     "referer": ""
                 }
             ]
+        },
+        {
+            "enmatchName": "Somalia VS Ghana",
+            "LeagueName": "Africa Cup of Nations Qual.",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/23472/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4764/image",
+            "matchTime": 1794841200,
+            "matchDate": "Today 09:30 PM",
+            "enhomeName": "Somalia",
+            "enawayName": "Ghana",
+            "links": []
+        },
+        {
+            "enmatchName": "Central African Republic VS Benin",
+            "LeagueName": "Africa Cup of Nations Qual.",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/23470/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4744/image",
+            "matchTime": 1794844800,
+            "matchDate": "Today 10:30 PM",
+            "enhomeName": "Central African Republic",
+            "enawayName": "Benin",
+            "links": []
+        },
+        {
+            "enmatchName": "Eritrea VS Guinea",
+            "LeagueName": "Africa Cup of Nations Qual.",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/8041/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4826/image",
+            "matchTime": 1794844800,
+            "matchDate": "Today 10:30 PM",
+            "enhomeName": "Eritrea",
+            "enawayName": "Guinea",
+            "links": []
+        },
+        {
+            "enmatchName": "Faroe Islands VS Moldova",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4760/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4782/image",
+            "matchTime": 1794841200,
+            "matchDate": "Today 09:30 PM",
+            "enhomeName": "Faroe Islands",
+            "enawayName": "Moldova",
+            "links": []
+        },
+        {
+            "enmatchName": "Kazakhstan VS Slovakia",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4772/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4697/image",
+            "matchTime": 1794841200,
+            "matchDate": "Today 09:30 PM",
+            "enhomeName": "Kazakhstan",
+            "enawayName": "Slovakia",
+            "links": []
+        },
+        {
+            "enmatchName": "Estonia VS Bulgaria",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4759/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4716/image",
+            "matchTime": 1794848400,
+            "matchDate": "Today 11:30 PM",
+            "enhomeName": "Estonia",
+            "enawayName": "Bulgaria",
+            "links": []
+        },
+        {
+            "enmatchName": "Iceland VS Luxembourg",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4708/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4478/image",
+            "matchTime": 1794848400,
+            "matchDate": "Today 11:30 PM",
+            "enhomeName": "Iceland",
+            "enawayName": "Luxembourg",
+            "links": []
+        },
+        {
+            "enmatchName": "Germany VS Netherlands",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4711/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4705/image",
+            "matchTime": 1794858300,
+            "matchDate": "Tomorrow 02:15 AM",
+            "enhomeName": "Germany",
+            "enawayName": "Netherlands",
+            "links": []
+        },
+        {
+            "enmatchName": "Greece VS Serbia",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4710/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/6355/image",
+            "matchTime": 1794858300,
+            "matchDate": "Tomorrow 02:15 AM",
+            "enhomeName": "Greece",
+            "enawayName": "Serbia",
+            "links": []
+        },
+        {
+            "enmatchName": "Lithuania VS Liechtenstein",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4776/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4830/image",
+            "matchTime": 1794848400,
+            "matchDate": "Today 11:30 PM",
+            "enhomeName": "Lithuania",
+            "enawayName": "Liechtenstein",
+            "links": []
+        },
+        {
+            "enmatchName": "Gibraltar VS Malta",
+            "LeagueName": "UEFA Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/129264/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4483/image",
+            "matchTime": 1794858300,
+            "matchDate": "Tomorrow 02:15 AM",
+            "enhomeName": "Gibraltar",
+            "enawayName": "Malta",
+            "links": []
+        },
+        {
+            "enmatchName": "Andorra VS Azerbaijan",
+            "LeagueName": "International Friendly Games",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4818/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4742/image",
+            "matchTime": 1794852000,
+            "matchDate": "Tomorrow 12:30 AM",
+            "enhomeName": "Andorra",
+            "enawayName": "Azerbaijan",
+            "links": []
+        },
+        {
+            "enmatchName": "Albacete Balompié VS Celta Fortuna",
+            "LeagueName": "LaLiga 2",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/2848/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/24336/image",
+            "matchTime": 1794857400,
+            "matchDate": "Tomorrow 02:00 AM",
+            "enhomeName": "Albacete Balompié",
+            "enawayName": "Celta Fortuna",
+            "links": []
+        },
+        {
+            "enmatchName": "Singapore VS Brazil",
+            "LeagueName": "International Friendly Games",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4738/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4748/image",
+            "matchTime": 1794909600,
+            "matchDate": "Tomorrow 04:30 PM",
+            "enhomeName": "Singapore",
+            "enawayName": "Brazil",
+            "links": []
+        },
+        {
+            "enmatchName": "Argentina VS Costa Rica",
+            "LeagueName": "International Friendly Games",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4819/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/4756/image",
+            "matchTime": 1794949200,
+            "matchDate": "Nov 18, 2026 03:30 AM",
+            "enhomeName": "Argentina",
+            "enawayName": "Costa Rica",
+            "links": []
+        },
+        {
+            "enmatchName": "Canada VS Guatemala",
+            "LeagueName": "CONCACAF Nations League",
+            "Leaguelogo": "http://img.sofascore.com/api/v1/unique-tournament/14100/image/dark",
+            "homeLogo": "https://img.sofascore.com/api/v1/team/4752/image",
+            "awayLogo": "https://img.sofascore.com/api/v1/team/5163/image",
+            "matchTime": 1794877200,
+            "matchDate": "Tomorrow 07:30 AM",
+            "enhomeName": "Canada",
+            "enawayName": "Guatemala",
+            "links": []
         }
     ]
 }
