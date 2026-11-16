@@ -1,0 +1,35 @@
+name: Update Live JSON
+
+on:
+  schedule:
+    # MMT (UTC+6:30) 16:00 to 05:00 corresponds to UTC 09:30 to 22:30
+    # Every 5 minutes: */5 9-22 * * *
+    - cron: '*/5 9-22 * * *'
+  workflow_dispatch: # လက်စွဲဖြင့် စမ်းသပ် Run လို့ရရန်
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Script
+        run: python main.py
+
+      - name: Commit and Push if changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output.json
+          git diff --staged --quiet || (git commit -m "Auto-update JSON data" && git push)
