@@ -2,10 +2,9 @@ name: Update Live JSON
 
 on:
   schedule:
-    # MMT (UTC+6:30) 16:00 to 05:00 corresponds to UTC 09:30 to 22:30
-    # Every 5 minutes: */5 9-22 * * *
+    # UTC 09:30 မှ 22:30 ထိ (မြန်မာစံတော်ချိန် ညနေ 4:00 မှ မနက် 5:00 ထိ) - ၅ မိနစ်တစ်ကြိမ်
     - cron: '*/5 9-22 * * *'
-  workflow_dispatch: # လက်စွဲဖြင့် စမ်းသပ် Run လို့ရရန်
+  workflow_dispatch: # လက်စွဲဖြင့် (Manual) စမ်းသပ် Run လို့ရရန်
 
 jobs:
   update-data:
