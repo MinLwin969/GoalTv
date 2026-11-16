@@ -7,16 +7,10 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/23472/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4764/image",
             "matchTime": 1794841200,
-            "matchDate": "Today 09:30 PM",
+            "matchDate": "Nov 16, 2026 09:30 PM",
             "enhomeName": "Somalia",
             "enawayName": "Ghana",
-            "links": [
-                {
-                    "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|drmScheme=clearkey&drmLicense=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe",
-                    "lang": "en",
-                    "referer": ""
-                }
-            ]
+            "links": []
         },
         {
             "enmatchName": "Central African Republic VS Benin",
@@ -25,7 +19,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/23470/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4744/image",
             "matchTime": 1794844800,
-            "matchDate": "Today 10:30 PM",
+            "matchDate": "Nov 16, 2026 10:30 PM",
             "enhomeName": "Central African Republic",
             "enawayName": "Benin",
             "links": []
@@ -37,7 +31,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/8041/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4826/image",
             "matchTime": 1794844800,
-            "matchDate": "Today 10:30 PM",
+            "matchDate": "Nov 16, 2026 10:30 PM",
             "enhomeName": "Eritrea",
             "enawayName": "Guinea",
             "links": []
@@ -49,7 +43,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4760/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4782/image",
             "matchTime": 1794841200,
-            "matchDate": "Today 09:30 PM",
+            "matchDate": "Nov 16, 2026 09:30 PM",
             "enhomeName": "Faroe Islands",
             "enawayName": "Moldova",
             "links": []
@@ -61,16 +55,10 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4772/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4697/image",
             "matchTime": 1794841200,
-            "matchDate": "Today 09:30 PM",
+            "matchDate": "Nov 16, 2026 09:30 PM",
             "enhomeName": "Kazakhstan",
             "enawayName": "Slovakia",
-            "links": [
-                {
-                    "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-                    "lang": "en",
-                    "referer": ""
-                }
-            ]
+            "links": []
         },
         {
             "enmatchName": "Estonia VS Bulgaria",
@@ -79,7 +67,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4759/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4716/image",
             "matchTime": 1794848400,
-            "matchDate": "Today 11:30 PM",
+            "matchDate": "Nov 16, 2026 11:30 PM",
             "enhomeName": "Estonia",
             "enawayName": "Bulgaria",
             "links": []
@@ -91,7 +79,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4708/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4478/image",
             "matchTime": 1794848400,
-            "matchDate": "Today 11:30 PM",
+            "matchDate": "Nov 16, 2026 11:30 PM",
             "enhomeName": "Iceland",
             "enawayName": "Luxembourg",
             "links": []
@@ -103,7 +91,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4711/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4705/image",
             "matchTime": 1794858300,
-            "matchDate": "Tomorrow 02:15 AM",
+            "matchDate": "Today 02:15 AM",
             "enhomeName": "Germany",
             "enawayName": "Netherlands",
             "links": []
@@ -115,7 +103,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4710/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/6355/image",
             "matchTime": 1794858300,
-            "matchDate": "Tomorrow 02:15 AM",
+            "matchDate": "Today 02:15 AM",
             "enhomeName": "Greece",
             "enawayName": "Serbia",
             "links": []
@@ -127,7 +115,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4776/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4830/image",
             "matchTime": 1794848400,
-            "matchDate": "Today 11:30 PM",
+            "matchDate": "Nov 16, 2026 11:30 PM",
             "enhomeName": "Lithuania",
             "enawayName": "Liechtenstein",
             "links": []
@@ -139,7 +127,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/129264/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4483/image",
             "matchTime": 1794858300,
-            "matchDate": "Tomorrow 02:15 AM",
+            "matchDate": "Today 02:15 AM",
             "enhomeName": "Gibraltar",
             "enawayName": "Malta",
             "links": []
@@ -151,7 +139,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4818/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4742/image",
             "matchTime": 1794852000,
-            "matchDate": "Tomorrow 12:30 AM",
+            "matchDate": "Today 12:30 AM",
             "enhomeName": "Andorra",
             "enawayName": "Azerbaijan",
             "links": []
@@ -163,7 +151,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/2848/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/24336/image",
             "matchTime": 1794857400,
-            "matchDate": "Tomorrow 02:00 AM",
+            "matchDate": "Today 02:00 AM",
             "enhomeName": "Albacete Balompié",
             "enawayName": "Celta Fortuna",
             "links": []
@@ -175,7 +163,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4738/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4748/image",
             "matchTime": 1794909600,
-            "matchDate": "Tomorrow 04:30 PM",
+            "matchDate": "Today 04:30 PM",
             "enhomeName": "Singapore",
             "enawayName": "Brazil",
             "links": []
@@ -187,7 +175,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4819/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/4756/image",
             "matchTime": 1794949200,
-            "matchDate": "Nov 18, 2026 03:30 AM",
+            "matchDate": "Tomorrow 03:30 AM",
             "enhomeName": "Argentina",
             "enawayName": "Costa Rica",
             "links": []
@@ -199,7 +187,7 @@
             "homeLogo": "https://img.sofascore.com/api/v1/team/4752/image",
             "awayLogo": "https://img.sofascore.com/api/v1/team/5163/image",
             "matchTime": 1794877200,
-            "matchDate": "Tomorrow 07:30 AM",
+            "matchDate": "Today 07:30 AM",
             "enhomeName": "Canada",
             "enawayName": "Guatemala",
             "links": []
