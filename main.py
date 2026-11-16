@@ -2,16 +2,6 @@ import json
 from datetime import datetime, timezone, timedelta
 import requests
 
-def is_active_time():
-    # မြန်မာစံတော်ချိန် (UTC +6:30) ဖြင့် လက်ရှိအချိန်ကို စစ်ဆေးခြင်း
-    mmt_now = datetime.now(timezone(timedelta(hours=6, minutes=30)))
-    current_hour = mmt_now.hour
-    
-    # ညနေ ၄ နာရီ (16) မှ မနက် ၅ နာရီ (5) အတွင်း
-    if current_hour >= 16 or current_hour < 5:
-        return True
-    return False
-
 def get_mmt_datetime(start_time_str):
     if not start_time_str:
         return 0, ""
@@ -40,11 +30,6 @@ def get_mmt_datetime(start_time_str):
         return 0, start_time_str
 
 def main():
-    # သတ်မှတ်ထားသော အချိန်ပြင်ပ (မြန်မာစံတော်ချိန် ညနေ ၄ မှ မနက် ၅ အတွင်းမဟုတ်ပါက) ကျော်သွားမည်
-    if not is_active_time():
-        print("Outside active time (4 PM to 5 AM MMT). Skipping execution.")
-        return
-
     main_url = "https://restless-smoke-4e11.mominulislamm3u8.workers.dev/categories/live-events.txt"
     
     try:
