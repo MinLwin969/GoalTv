@@ -2,6 +2,16 @@ import json
 from datetime import datetime, timezone, timedelta
 import requests
 
+def is_active_time():
+    # မြန်မာစံတော်ချိန် (UTC +6:30) ဖြင့် လက်ရှိအချိန်ကို စစ်ဆေးခြင်း
+    mmt_now = datetime.now(timezone(timedelta(hours=6, minutes=30)))
+    current_hour = mmt_now.hour
+    
+    # ညနေ ၄ နာရီ (16) မှ မနက် ၅ နာရီ (5) အတွင်း
+    if current_hour >= 16 or current_hour < 5:
+        return True
+    return False
+
 def get_mmt_datetime(start_time_str):
     if not start_time_str:
         return 0, ""
@@ -10,14 +20,12 @@ def get_mmt_datetime(start_time_str):
         clean_time_str = start_time_str.split(" +")[0]
         dt_utc = datetime.strptime(clean_time_str, "%Y/%m/%d %H:%M:%S").replace(tzinfo=timezone.utc)
         
-        # မင်္လာစံတော်ချိန် (UTC +6:30) သို့ ပြောင်းရန်
+        # မြန်မာစံတော်ချိန် (UTC +6:30) သို့ ပြောင်းရန်
         dt_mmt = dt_utc.astimezone(timezone(timedelta(hours=6, minutes=30)))
         timestamp = int(dt_mmt.timestamp())
         
-        # ယနေ့ (Today) သို့မဟုတ် သင့်လျော်သော နေ့စွဲပုံစံဖော်ရန်
         now_mmt = datetime.now(timezone(timedelta(hours=6, minutes=30)))
-        
-        time_formatted = dt_mmt.strftime("%I:%M %p") # 09:30 PM
+        time_formatted = dt_mmt.strftime("%I:%M %p")
         
         if dt_mmt.date() == now_mmt.date():
             date_formatted = f"Today {time_formatted}"
@@ -32,6 +40,11 @@ def get_mmt_datetime(start_time_str):
         return 0, start_time_str
 
 def main():
+    # သတ်မှတ်ထားသော အချိန်ပြင်ပ (မြန်မာစံတော်ချိန် ညနေ ၄ မှ မနက် ၅ အတွင်းမဟုတ်ပါက) ကျော်သွားမည်
+    if not is_active_time():
+        print("Outside active time (4 PM to 5 AM MMT). Skipping execution.")
+        return
+
     main_url = "https://restless-smoke-4e11.mominulislamm3u8.workers.dev/categories/live-events.txt"
     
     try:
@@ -48,7 +61,7 @@ def main():
         event_info = event.get("eventInfo", {})
         event_name = event_info.get("eventName", "")
         
-        # 1. eventName "Football" သီးသန့်သာ စစ်ထုတ်မည်
+        # Football သီးသန့်သာ စစ်ထုတ်မည်
         if event_name != "Football":
             continue
             
@@ -57,7 +70,7 @@ def main():
         
         links = []
         
-        # 2. status က "live" ဖြစ်ပြီး channelUrl ရှိမှသာ stream links များကို ဝင်ဆွဲမည်
+        # status က "live" ဖြစ်ပြီး channelUrl ရှိမှသာ stream links များကို ဝင်ဆွဲမည်
         if status == "live" and channel_url:
             try:
                 ch_res = requests.get(channel_url, timeout=10)
@@ -69,8 +82,7 @@ def main():
                     
                     # .mpd လင့်ခ်များကိုသာ စစ်ထုတ်ယူမည်
                     if ".mpd" in raw_link:
-                        # 3. MPD လင့်ခ်နောက်မှ user-agent များနှင့် အခြားမလိုသည်များကို ရှင်းထုတ်ခြင်း
-                        # ဥပမာ - URL ထဲတွင် `?|` သို့မဟုတ် `|` ပါပါက ဖြတ်ထုတ်ရန်
+                        # user-agent များနှင့် အခြားမလိုသည်များကို ရှင်းထုတ်ခြင်း
                         if "?|" in raw_link:
                             base_mpd = raw_link.split("?|")[0]
                         elif "|" in raw_link:
@@ -92,8 +104,6 @@ def main():
                         })
             except Exception as e:
                 print(f"Error fetching channel data from {channel_url}: {e}")
-        
-        # status က "upcoming" ဖြစ်ပါက links မှာ အလွတ် (Array ဗလာ) သာ ဖြစ်မည်
 
         start_time_raw = event_info.get('startTime', '')
         match_time, match_date = get_mmt_datetime(start_time_raw)
@@ -117,7 +127,7 @@ def main():
     with open("output.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
-    print("Successfully generated output.json with updated rules!")
+    print("Successfully generated output.json!")
 
 if __name__ == "__main__":
     main()
