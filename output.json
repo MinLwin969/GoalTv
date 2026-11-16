@@ -74,7 +74,13 @@
             "matchDate": "Today 09:30 PM",
             "enhomeName": "Somalia",
             "enawayName": "Ghana",
-            "links": []
+            "links": [
+                {
+                    "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?|drmScheme=clearkey&drmLicense=27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe",
+                    "lang": "en",
+                    "referer": ""
+                }
+            ]
         },
         {
             "enmatchName": "Central African Republic VS Benin",
