@@ -1,10 +1,7 @@
 name: Update Live JSON
 
 on:
-  schedule:
-    # ၂၄ နာရီပတ်လုံး ၅ မိနစ်တစ်ကြိမ် အလုပ်လုပ်မည်
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # လက်စွဲဖြင့် (Manual) စမ်းသပ် Run လို့ရရန်
+  workflow_dispatch: # ပြင်ပမှ လှမ်းခေါ်ရန် (Manual/API Trigger)
 
 jobs:
   update-data:
