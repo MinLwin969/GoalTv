@@ -2,6 +2,14 @@ import json
 from datetime import datetime, timezone, timedelta
 import requests
 
+def fix_url_scheme(url):
+    if not url:
+        return ""
+    # https:// ပါပါက http:// သို့ ပြောင်းမည်
+    if url.startswith("https://"):
+        return url.replace("https://", "http://", 1)
+    return url
+
 def get_mmt_datetime(start_time_str):
     if not start_time_str:
         return 0, ""
@@ -93,12 +101,17 @@ def main():
         start_time_raw = event_info.get('startTime', '')
         match_time, match_date = get_mmt_datetime(start_time_raw)
 
+        # Logo URL များကို https ဖြစ်နေပါက http သို့ ပြောင်းလဲခြင်း
+        league_logo = fix_url_scheme(event_info.get('eventLogo', ''))
+        home_logo = fix_url_scheme(event_info.get('teamAFlag', ''))
+        away_logo = fix_url_scheme(event_info.get('teamBFlag', ''))
+
         match_data = {
             "enmatchName": f"{event_info.get('teamA')} VS {event_info.get('teamB')}",
             "LeagueName": event_info.get('eventType', ''),
-            "Leaguelogo": event_info.get('eventLogo', ''),
-            "homeLogo": event_info.get('teamAFlag', ''),
-            "awayLogo": event_info.get('teamBFlag', ''),
+            "Leaguelogo": league_logo,
+            "homeLogo": home_logo,
+            "awayLogo": away_logo,
             "matchTime": match_time,
             "matchDate": match_date,
             "enhomeName": event_info.get('teamA', ''),
@@ -112,7 +125,7 @@ def main():
     with open("output.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=4, ensure_ascii=False)
     
-    print("Successfully generated output.json!")
+    print("Successfully generated output.json with http logos!")
 
 if __name__ == "__main__":
     main()
